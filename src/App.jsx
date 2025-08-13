@@ -1,8 +1,12 @@
-import StaggerTest from "./molecules/StaggerTest";
+import Quiz from "./organisms/Quiz";
 function App() {
   return (
     <>
-      <StaggerTest />
+      <header></header>
+      <main>
+        <Quiz />
+      </main>
+      <footer></footer>
     </>
   );
 }
