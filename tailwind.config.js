@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         SecondSectionC: "#141A24",
+        AsideFooterC: "#262F3C",
       },
     },
   },

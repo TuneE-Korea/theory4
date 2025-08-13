@@ -1,13 +1,18 @@
+import FooterContent from "./organisms/FooterContent";
 import MainContent from "./organisms/MainContent";
+import AsideFooter from "./organisms/AsideFooter";
 function App() {
   return (
     <>
-      <header></header>
+      <header>
+        <div>헤더 테스트</div>
+      </header>
       <main>
         <MainContent />
       </main>
       <footer>
-        <div>테스트테스트테스트테스트테스트테스트테스트</div>
+        <AsideFooter source={"/image/footer.jpg"} />
+        <FooterContent />
       </footer>
     </>
   );
