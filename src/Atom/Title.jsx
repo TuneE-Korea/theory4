@@ -4,7 +4,7 @@ const Title = ({ init, ani }) => {
     <motion.h1
       initial={init}
       whileInView={{ ...ani, transition: { duration: 0.6 } }}
-      className=" text-white text-7xl font-semibold"
+      className=" text-white text-8xl font-semibold"
     >
       Lifetime Mobility
     </motion.h1>

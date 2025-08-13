@@ -1,14 +1,14 @@
 import { motion } from "framer-motion";
-const CaptionText = ({ init, ani }) => {
+const CaptionText = ({ init, ani, content, fontStyle }) => {
   return (
     <>
       <motion.div
         initial={init}
         whileInView={{ ...ani, transition: { duration: 0.6 } }}
         viewport={{ amount: "all" }}
-        className=" text-white text-7xl font-semibold"
+        className={`w-fit p-2 text-white text-3xl ${fontStyle}`}
       >
-        Lifetime Mobility
+        {content}
       </motion.div>
     </>
   );
