@@ -1,12 +1,14 @@
-import Quiz from "./organisms/Quiz";
+import MainContent from "./organisms/MainContent";
 function App() {
   return (
     <>
       <header></header>
       <main>
-        <Quiz />
+        <MainContent />
       </main>
-      <footer></footer>
+      <footer>
+        <div>테스트테스트테스트테스트테스트테스트테스트</div>
+      </footer>
     </>
   );
 }
