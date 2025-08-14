@@ -1,11 +1,12 @@
 import FooterContent from "./organisms/FooterContent";
 import MainContent from "./organisms/MainContent";
 import AsideFooter from "./organisms/AsideFooter";
+import HeaderContent from "./organisms/HeaderContent";
 function App() {
   return (
     <>
-      <header>
-        <div>헤더 테스트</div>
+      <header style={{ position: "relative" }}>
+        <HeaderContent />
       </header>
       <main>
         <MainContent />
