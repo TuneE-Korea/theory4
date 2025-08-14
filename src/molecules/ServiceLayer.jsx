@@ -21,7 +21,7 @@ const ServiceLayer = ({ before, after }) => {
               />
             </div>
             <div className="grid grid-cols-2 gap-y-10 w-full pb-20">
-              <div className="group relative">
+              <div className="group">
                 <ServiceCard
                   title={"쏘카플랜"}
                   content1={"한 달 이상 원하는 만큼 내 차처럼 이용하는"}
