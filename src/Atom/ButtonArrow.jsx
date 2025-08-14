@@ -1,5 +1,4 @@
 import { MoveRight } from "lucide-react";
-
 const ButtonArrow = () => {
   return (
     <>
