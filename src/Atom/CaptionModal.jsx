@@ -24,11 +24,11 @@ const CaptionModal = () => {
         variants={container}
         initial="hidden"
         animate="visible"
-        className="flex gap-4 overflow-hidden"
+        className="w-full flex gap-4 overflow-hidden"
       >
         <motion.div
           variants={item}
-          className="bg-[url('/image/photo7.jpg')] bg-cover bg-center h-96 w-96 rounded-md"
+          className="w-[992px] bg-[url('/image/photo7.jpg')] bg-cover bg-center h-96 w-96 rounded-md"
         ></motion.div>
         {/* <motion.div
           variants={item}

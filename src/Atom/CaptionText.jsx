@@ -5,7 +5,7 @@ const CaptionText = ({ init, ani, content, fontStyle }) => {
       <motion.div
         initial={init}
         whileInView={{ ...ani, transition: { duration: 0.6 } }}
-        viewport={{ amount: "all" }}
+        viewport={{ amount: "all", once: true }}
         className={`w-fit p-2 text-white text-3xl ${fontStyle}`}
       >
         {content}

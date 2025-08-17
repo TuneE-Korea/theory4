@@ -8,7 +8,7 @@ const MainContent = () => {
   return (
     <>
       <TitleLayer before={hidden} after={show} />
-      <CaptionLayer before={hidden} after={show} />
+      <CaptionLayer />
       <Serviece before={hidden} after={show} />
     </>
   );

@@ -7,7 +7,6 @@ const StaggerTest = () => {
         delayChildren: stagger(0.4, { start: 0 }),
       },
     },
-    exit: {},
   };
   const item = {
     hidden: { opacity: 0, y: 20 },

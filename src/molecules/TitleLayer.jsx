@@ -1,17 +1,18 @@
 import VideoBox from "../Atom/VideoBox";
-import Title from "../Atom/Title";
-import SubTitle from "../Atom/subtitle";
 import InstallButton from "../Atom/InstllButton";
-const TitleLayer = ({ before, after }) => {
+import StaggerTitle from "../Atom/StaggerTitle";
+const TitleLayer = () => {
   return (
     <>
       <section className="h-max relative bg-transparent flex flex-col justify-center items-center gap-2">
         <div className="relative flex justify-center items-center">
           <VideoBox className="absolute top-0 left-0 w-full h-full object-cover" />
-          <div className="absolute top-64 flex flex-col gap-3 justify-center items-center">
-            <Title init={before} ani={after} />
-            <SubTitle init={before} ani={after} />
-          </div>
+          <StaggerTitle
+            content1={"Lifetime Mobility"}
+            size1={"md:text-5xl"}
+            content2={"라이프타임 모빌리티 플랫폼, 쏘카"}
+            size2={"md:text-2xl"}
+          />
           <div className="absolute right-14 bottom-52">
             <InstallButton />
           </div>
