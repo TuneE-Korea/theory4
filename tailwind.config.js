@@ -6,6 +6,7 @@ export default {
       colors: {
         SecondSectionC: "#141A24",
         AsideFooterC: "#262F3C",
+        InstallationC: "#0178FF",
       },
     },
   },

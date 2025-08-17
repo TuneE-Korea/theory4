@@ -1,6 +1,7 @@
 import VideoBox from "../Atom/VideoBox";
 import Title from "../Atom/Title";
 import SubTitle from "../Atom/subtitle";
+import InstallButton from "../Atom/InstllButton";
 const TitleLayer = ({ before, after }) => {
   return (
     <>
@@ -10,6 +11,9 @@ const TitleLayer = ({ before, after }) => {
           <div className="absolute flex flex-col gap-3 justify-center items-center">
             <Title init={before} ani={after} />
             <SubTitle init={before} ani={after} />
+          </div>
+          <div className="absolute right-14 bottom-52">
+            <InstallButton />
           </div>
         </div>
       </section>
